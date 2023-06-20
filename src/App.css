@@ -1,12 +1,7 @@
-.app {
-    height: 100vh;
-
-    justify-content: center;
-    align-items: center;
-}
-
 .profile-container {
     display: flex;
+    width: 100%;
+
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
@@ -16,17 +11,16 @@
 
 .profile-icons {
     display: flex;
+    flex-direction: row;
 
     justify-content: center;
-    gap: 32px;
+    gap: 16px;
 }
 
 .profile-infos {
     display: flex;
     flex-direction: column;
-    width: 100%;
 
-    justify-content: center;
     color: #665C5F;
     text-transform: uppercase;
     gap: 16px;
