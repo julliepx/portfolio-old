@@ -24,7 +24,10 @@ function App() {
         </div>
         <div className="profile-infos">
           <h1>Oi, eu sou a Jullie</h1>
-          <h2>Fullstack Developer</h2>
+          <div className="profile-title">
+            <h2>Fullstack Developer</h2>
+            <h3>{'< />'}</h3>
+          </div>
           <p>Tenho 22 anos e sou desenvolvedora fullstack com 1 ano de experiência trabalhando no mercado.</p>
         </div>
         <img src="https://github.com/julliepx.png" alt="Foto de Jullie Paixão, com a língua de fora e usando um headphone preto." />
