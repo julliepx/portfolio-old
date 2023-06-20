@@ -1,0 +1,97 @@
+.profile-infos {
+    display: flex;
+    width: 330px;
+    flex-direction: column;
+
+    color: #665C5F;
+    text-transform: uppercase;
+}
+
+.profile-title {
+    display: flex;
+    align-items: center;
+}
+
+.profile-title h3 {
+    color: #EA4476;
+    width: 150px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 0px;
+}
+
+.profile-infos h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 0px;
+}
+
+.profile-infos h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42px;
+    margin: 0px;
+}
+
+.profile-infos p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0px;
+}
+
+.about-button {
+    text-align: center;
+}
+
+@media (min-width: 1248px) {
+    .profile-infos {
+        display: flex;
+        margin-top: 64px;
+        flex-direction: column;
+        width: 525px;
+    
+        justify-content: center;
+        color: #665C5F;
+        text-transform: uppercase;
+        padding: 32px;
+        gap: 16px;
+    }
+
+    .profile-title {
+        display: flex;
+        align-items: center;
+    }
+    
+    .profile-title h3 {
+        color: #EA4476;
+        width: 240px;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 28px;
+        margin: 0px;
+    }
+
+    .profile-infos h1 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 38px;
+        margin: 0px;
+    }
+    
+    .profile-infos h2 {
+        font-size: 64px;
+        font-weight: 500;
+        line-height: 75px;
+        margin: 0px;
+    }
+    
+    .profile-infos p {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        margin: 0px;
+    }
+}

@@ -1,10 +1,14 @@
 import './App.css';
+import ArrowDownIcon from './components/icons/ArrowDownIcon/ArrowDownIcon';
 import CVIcon from './components/icons/CVIcon/CVIcon';
 import GitHubIcon from './components/icons/GitHubIcon/GitHubIcon';
 import LinkedInIcon from './components/icons/LinkedInIcon/LinkedInIcon';
 import MailIcon from './components/icons/MailIcon/MailIcon';
+import { Link, Outlet } from 'react-router-dom';
 
 function App() {
+  const number = 3;
+
   return (
     <div className="app">
       <section className="profile-container">
@@ -22,14 +26,7 @@ function App() {
             <CVIcon />
           </a>
         </div>
-        <div className="profile-infos">
-          <h1>Oi, eu sou a Jullie</h1>
-          <div className="profile-title">
-            <h2>Fullstack Developer</h2>
-            <h3>{'< />'}</h3>
-          </div>
-          <p>Tenho 22 anos e sou desenvolvedora fullstack com 1 ano de experiência trabalhando no mercado.</p>
-        </div>
+          <Outlet />
         <img src="https://github.com/julliepx.png" alt="Foto de Jullie Paixão, com a língua de fora e usando um headphone preto." />
       </section>
     </div>
