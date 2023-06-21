@@ -48,6 +48,7 @@
 
     .profile-icons {
         display: flex;
+        width: auto;
         flex-direction: column;
     
         justify-content: center;
