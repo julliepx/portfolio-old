@@ -1,6 +1,6 @@
 .profile-infos {
     display: flex;
-    width: 330px;
+    width: 85%;
     flex-direction: column;
 
     color: #665C5F;
@@ -14,15 +14,15 @@
 
 .profile-title h3 {
     color: #EA4476;
-    width: 150px;
-    font-size: 48px;
-    font-weight: 500;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 800;
     line-height: 28px;
     margin: 0px;
 }
 
 .profile-infos h1 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 28px;
     margin: 0px;
