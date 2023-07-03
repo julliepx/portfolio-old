@@ -1,18 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import Home from './routes/Home';
-import About from './components/icons/About/About';
+import Home from './routes/Home/Home';
+import About from './components/About/About';
 import ProfileIntro from './components/ProfileIntro/ProfileIntro';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
+    element: <Home />,
     children: [
       {
         path: '/',
@@ -34,5 +32,3 @@ root.render(
     <RouterProvider router={router}/>
   </React.StrictMode>
 );
-
-reportWebVitals();

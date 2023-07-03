@@ -1,5 +1,4 @@
 import React from 'react';
-import './ArrowUpIcon.css';
 
 const ArrowUpIcon: React.FC = () => {
     return <svg width="64" height="64" viewBox="0 0 64 64" fill="#EA4476" xmlns="http://www.w3.org/2000/svg">
