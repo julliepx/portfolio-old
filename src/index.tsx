@@ -9,17 +9,6 @@ import Home from './routes/Home';
 import About from './components/icons/About/About';
 import ProfileIntro from './components/ProfileIntro/ProfileIntro';
 
-/* const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Home />,
-  },
-  {
-    path: 'about',
-    element: <About />,
-  }
-]); */
-
 const router = createBrowserRouter([
   {
     path: '/',
